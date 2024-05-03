@@ -1,0 +1,132 @@
+.animal{
+    display: flex;
+    gap: 6rem;
+    animation: gradientAnimation 10s infinite;
+    margin: 2rem 3rem;
+   
+    
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+    
+}
+
+
+    /* background-image: linear-gradient(to bottom right, violet, yellow); */
+
+
+
+.text{
+    width: 80%;
+}
+.fun{
+}
+
+.japanese{
+    /* margin-left: 91px; */
+
+}
+
+.funs{
+    margin-right: 10px;
+ }
+ 
+
+ .container2{
+    display: flex;
+    /* margin-top: 100px;
+    margin-left: 130px; */
+ }
+
+.Hokkaido{
+    /* margin-right: 10px; */
+
+}
+
+.german:hover{
+    transform: scale(1.1, 1.1);
+
+}
+
+.japanese:hover{
+    transform: scale(1.1, 1.1);
+
+}
+
+.Hook:hover{
+    transform: scale(1.1, 1.1);
+
+}
+
+.grand:hover{
+    transform: scale(1.1, 1.1);
+
+}
+
+/* .start{
+    margin-top: 70px;
+} */
+
+.maxx{
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 30px;
+}
+
+.max{
+    font-size: 12px;
+    padding: 0.5rem;
+    border: 1px solid #640D6B;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.min{
+    margin-left: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+
+}
+
+.maxxx{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.dog{
+    text-align: center;
+    padding-top: 90px;
+}
+
+
+
+
+/*  */
+.grid-container {
+     display: grid;
+      grid-template-columns: repeat(2, 1fr);
+     /* background-color: #ffdfba; */
+ 
+    gap: 5rem;
+    margin: 2rem 3rem;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+    /* font-size: 30px; */
+  }
+
+  .grid-item{
+    color: #640D6B;
+  }
